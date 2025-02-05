@@ -1,0 +1,17 @@
+body {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+}
+
+canvas {
+    border: 2px solid var(--bs-secondary);
+    background: url('../images/beach.svg');
+    background-size: cover;
+    max-width: 100%;
+}
+
+.score-container {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--bs-info);
+}
