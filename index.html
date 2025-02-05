@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelly Volleyball</title>
+    <link rel="stylesheet" href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h1>Jelly Volleyball</h1>
+                <div class="score-container mb-3">
+                    <span id="player-score">0</span> - <span id="cpu-score">0</span>
+                </div>
+                <canvas id="gameCanvas"></canvas>
+                <div class="mt-3">
+                    <p>Controls: Arrow keys to move, Space to jump</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+    <script src="js/jellyPhysics.js"></script>
+    <script src="js/soundManager.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
